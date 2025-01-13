@@ -1,21 +1,40 @@
-# Visual Studio
-.vs/
-*.user
-*.suo
-
-# Build Outputs
+# Derleme Klasörleri
 bin/
 obj/
 
-# Packages
+# Visual Studio Kullanıcı Dosyaları
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+.vs/
+
+# Geçici Dosyalar
+*.tmp
+*.temp
+*.log
+
+# Yedek Dosyalar
+*.bak
+*.old
+
+# Paket Yönetimi
 packages/
 *.nupkg
+project.lock.json
 
-# Temporary files
-*.log
-*.tmp
+# Çıktı Dosyaları
+*.dll
+*.exe
+*.pdb
 *.cache
+*.ilk
+*.idb
 
-# OS files
-.DS_Store
-Thumbs.db
+# ReSharper ve Rider
+.idea/
+*.DotSettings.user
+
+# Diğer Gereksiz Dosyalar
+*.db
+*.sqlite
